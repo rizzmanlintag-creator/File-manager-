@@ -10,7 +10,7 @@ name: Build APK
 permissions:
   contents: read
 
-jobs:
+jobs: ./gradlew
   build:
     runs-on: ubuntu-latest
 
